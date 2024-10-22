@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .btn {
+        @apply p-5 bg-teal-100 shadow-sm text-teal-600 rounded my-3 font-bold;
+    }
+    .btn:hover {
+        @apply bg-teal-200;
+    }
+    .btn:active {
+        @apply bg-teal-200;
+    }
+}
