@@ -138,6 +138,8 @@ function formatOperand(operand) {
         return INTEGER_FORMATTER.format(integer)
 
     }
+
+    return `${INTEGER_FORMATTER.format(integer)}.${decimal}`
 }
 
 const Calculator = () => {
@@ -147,7 +149,7 @@ const Calculator = () => {
         <div className='w-full flex items-center justify-center mt-5'>
             <div className=" border border-teal-100 space-x-2 shadow-md p-2 rounded-md w-fit">
                 <div className=" w-full bg-teal-500 p-2 min-h-[80px] flex justify-end items-end flex-col shadow-sm rounded-lg text-white ">
-                    <div className="text-sm font-bold">{previousOperand} {operation}</div>
+                    <div className="text-sm font-bold">{formatOperand(previousOperand)} {operation}</div>
                     <div className="text-xl font-bold">{formatOperand(currentOperand)}</div>
                 </div>
                 <div className="w-full grid grid-cols-4 gap-2 justify-between px-3">
