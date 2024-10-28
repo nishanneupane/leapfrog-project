@@ -150,16 +150,12 @@ const Calculator = () => {
             <div className=" border border-teal-100 space-x-2 shadow-md p-2 rounded-md w-fit">
                 <div className=" w-full bg-teal-500 p-2 min-h-[80px] flex justify-end items-end flex-col shadow-sm rounded-lg text-white ">
                     <div className="text-sm font-bold">{formatOperand(previousOperand)} {operation}</div>
-                    <div className="text-xl font-bold">{formatOperand(currentOperand)}</div>
+                    <div className="text-3xl font-bold text-transparent bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text">{formatOperand(currentOperand)}</div>
                 </div>
                 <div className="w-full grid grid-cols-4 gap-2 justify-between px-3">
                     <button className='btn col-span-2' onClick={() => dispatch({ type: ACTIONS.CLEAR })} > AC</button>
                     <button className='btn' onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })} >DEL</button>
                     <OperationButton operation={"/"} dispatch={dispatch} />
-
-
-
-
 
                     <DigitButton digit={"1"} dispatch={dispatch} />
                     <DigitButton digit={"2"} dispatch={dispatch} />
