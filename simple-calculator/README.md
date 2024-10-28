@@ -102,15 +102,5 @@ The code is structured as follows:
 - `public`: This folder contains the static assets that can be used directly in the application.
 - `src`: This folder contains the source code of the application.
 - `src/components`: This folder contains the React components used in the application.
-- `src/App.js`: This file contains the main application component.
+- `src/App.jsx`: This file contains the main application component.
 - `src/index.js`: This file contains the entry point of the application.
-
-### Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
