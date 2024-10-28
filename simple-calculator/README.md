@@ -28,5 +28,89 @@ To get a local copy of the project, follow these steps:
 3. Run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/nishanneupane/leapfrog-project.git
    ```
+
+## Installation
+
+After cloning the repository, follow these steps to install the required dependencies:
+
+1. Navigate to the project directory:
+
+   ```bash
+   cd leapfrog-project
+   cd simple-calculator
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Running the Application
+
+To run the application, follow these steps:
+
+1. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+2. Open your web browser and navigate to `http://localhost:3000` to access the application.
+
+## Customizing the Code
+
+To customize the code, follow these steps:
+
+1. Open the project directory in your preferred code editor.
+2. Make the necessary changes to the code.
+3. Save the changes.
+4. Run the application again to see the changes in effect.
+
+## Available Scripts
+
+In the project directory, you can run the following scripts:
+
+### `npm start`
+
+Runs the application in development mode.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+### `npm run build`
+
+Builds the application for production to the `build` folder.
+
+### `npm run eject`
+
+Removes this tool and copies build dependencies, configuration files, and scripts into the app directory.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Structure
+
+The code is structured as follows:
+
+- `public`: This folder contains the static assets that can be used directly in the application.
+- `src`: This folder contains the source code of the application.
+- `src/components`: This folder contains the React components used in the application.
+- `src/App.js`: This file contains the main application component.
+- `src/index.js`: This file contains the entry point of the application.
+
+### Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
