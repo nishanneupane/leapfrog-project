@@ -4,6 +4,7 @@ This platform helps user to view youtube videos in real time without any bufferi
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
 - [Prerequisites](#prerequisites)
 - [Cloning the Repository](#cloning-the-repository)
 - [Installation](#installation)
@@ -100,6 +101,10 @@ Removes this tool and copies build dependencies, configuration files, and script
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Live Demo
+
+You can view a live demo of the application at [https://leaptube.netlify.app](https://leaptube.netlify.app).
 
 ### Code Structure
 
