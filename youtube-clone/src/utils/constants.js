@@ -12,8 +12,7 @@ export const logo =
   "https://i.pinimg.com/originals/98/64/18/98641841ef22e64565986de244df711b.jpg";
 
 export const categories = [
-  { name: "New", icon: <HomeIcon /> },
-  { name: "tech nishan", icon: <CodeIcon /> },
+  { name: "Podcasts", icon: <HomeIcon /> },
   { name: "Code with antonio", icon: <CodeIcon /> },
   { name: "Javascript Mastery", icon: <CodeIcon /> },
   { name: "Saas projects fullstack", icon: <DeveloperModeIcon /> },
